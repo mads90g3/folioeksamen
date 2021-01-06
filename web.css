@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+}
+
+/*fonts*/
+h3 {
+    font-family: roc-grotesk, sans-serif;
+    font-size: 1vw;
+}
+
+p {
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 100;
+}
+
+/*webhead*/
+#webhead {
+    font-family: mencken-std-head-compress, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 11vw;
+    text-transform: uppercase;
+    margin-bottom: 5vw;
+}
+
+/*webbeskrivelse*/
+#web {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10vw;
+}
+
+#web p {
+    line-height: 1.6;
+    font-weight: 250;
+    margin-right: 6vw;
+}
+
+#web h3 {
+    text-align: right;
+    margin-right: 3vw;
+}
+
+/*moodboard og styletile*/
+#imgsection1{
+    margin: 7vw;
+}
+#imgsection1 h3{
+    margin-bottom: 3vw;
+}
+#imgsection1 .img1,
+.img2 {
+    height: auto;
+    width: 35vw;
+}
+
+/*mockupbillede*/
+#imgsection2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5vw;
+}
+#imgsection2 img{
+    height: auto;
+    width: 40vw;
+}
+
+#imgsection2 h3{
+    text-align: right;
+    margin-right: 3vw;
+}
+

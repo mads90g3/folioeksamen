@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 /*fonts*/
 h3 {
     font-family: roc-grotesk, sans-serif;
@@ -16,6 +20,7 @@ p {
     font-style: normal;
     font-size: 11vw;
     text-transform: uppercase;
+    margin-bottom: 5vw;
 }
 
 /*profilbillede*/
@@ -24,6 +29,7 @@ p {
     height: 35vw;
     width: auto;
     left: 47vw;
+    margin-bottom: 5vw;
 }
 
 /*about*/
@@ -31,8 +37,10 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-right: 5vw;
+    margin-bottom: 5vw;
 }
-#about p{
+
+#about p {
     line-height: 1.6;
     font-weight: 250;
 }
@@ -44,10 +52,10 @@ p {
 
 /*KEA projekter*/
 div.scrollmenu {
-    background-color: #333;
     overflow: auto;
     white-space: nowrap;
 }
+
 div.scrollmenu img {
     height: 35vw;
     width: auto;
@@ -66,9 +74,33 @@ div.scrollmenu a:hover {
 }
 
 /*contact*/
-#contact p{
+#contact p {
     font-family: roc-grotesk, sans-serif;
     font-weight: 500;
     font-size: 4vw;
-    margin: 8vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 5vw;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    color: black;
+
+}
+
+footer a:hover {
+    text-decoration: line-through;
+    text-decoration-color: orange;
 }
