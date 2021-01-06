@@ -1,6 +1,7 @@
 /*fonts*/
 h3 {
     font-family: roc-grotesk, sans-serif;
+    font-size: 1vw;
 }
 
 p {
@@ -15,9 +16,6 @@ p {
     font-style: normal;
     font-size: 11vw;
     text-transform: uppercase;
-}
-#abouthead amp{
-    color: aqua;
 }
 
 /*profilbillede*/
@@ -34,6 +32,10 @@ p {
     grid-template-columns: 1fr 1fr;
     margin-right: 5vw;
 }
+#about p{
+    line-height: 1.6;
+    font-weight: 250;
+}
 
 #about h3 {
     text-align: right;
@@ -46,6 +48,10 @@ div.scrollmenu {
     overflow: auto;
     white-space: nowrap;
 }
+div.scrollmenu img {
+    height: 35vw;
+    width: auto;
+}
 
 div.scrollmenu a {
     display: inline-block;
@@ -57,4 +63,12 @@ div.scrollmenu a {
 
 div.scrollmenu a:hover {
     background-color: orange;
+}
+
+/*contact*/
+#contact p{
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 500;
+    font-size: 4vw;
+    margin: 8vw;
 }
