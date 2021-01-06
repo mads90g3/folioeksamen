@@ -1,0 +1,60 @@
+/*fonts*/
+h3 {
+    font-family: roc-grotesk, sans-serif;
+}
+
+p {
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 100;
+}
+
+/*about overskrift*/
+#abouthead {
+    font-family: mencken-std-head-compress, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 11vw;
+    text-transform: uppercase;
+}
+#abouthead amp{
+    color: aqua;
+}
+
+/*profilbillede*/
+#profilbillede {
+    position: relative;
+    height: 35vw;
+    width: auto;
+    left: 47vw;
+}
+
+/*about*/
+#about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 5vw;
+}
+
+#about h3 {
+    text-align: right;
+    margin-right: 3vw;
+}
+
+/*KEA projekter*/
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none
+}
+
+div.scrollmenu a:hover {
+    background-color: orange;
+}
