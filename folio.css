@@ -52,13 +52,17 @@ p {
 }
 
 /*KEA projekter*/
+#kea h3{
+    padding-bottom: 4vw;
+    padding-left: 3vw;
+}
 div.scrollmenu {
     overflow: auto;
     white-space: nowrap;
 }
 
 div.scrollmenu img {
-    height: 35vw;
+    height: 45vw;
     width: auto;
 }
 
