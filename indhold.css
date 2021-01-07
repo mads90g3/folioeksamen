@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+/*fonts*/
+h3 {
+    font-family: roc-grotesk, sans-serif;
+    font-size: 1vw;
+}
+
+p {
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 100;
+}
+
+/*webhead*/
+#indholdhead {
+    font-family: mencken-std-head-compress, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 11vw;
+    text-transform: uppercase;
+    margin-bottom: 5vw;
+}
+/*indhold - beskrivelse*/
+#indhold {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10vw;
+}
+
+#indhold p {
+    line-height: 1.6;
+    font-weight: 250;
+    margin-right: 6vw;
+}
+
+#indhold h3 {
+    text-align: right;
+    margin-right: 3vw;
+}
+/*moodboard og styletile*/
+#imgsection1 {
+    margin: 7vw;
+    padding-bottom: 10vw;
+}
+
+#imgsection1 img{
+    height: auto;
+    width: 35vw;
+    padding: 3vw;
+}
+
+/*billede af logo*/
+#imgsection2{
+    padding-left: 30vw;
+    padding-bottom: 15vw;
+}
+#imgsection2 img{
+    padding: 3vw;
+}
+
+/*stemningsvideo*/
+#video1 video{
+    height: auto;
+    width: 53vw;
+    padding: 3vw;
+}
+#video1{
+    padding-left: 21vw;
+    padding-bottom: 10vw;
+}
+
+/*link til redesign i footer*/
+footer {
+    margin-bottom: 10vw;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: line-through;
+    text-decoration-color: orange;
+}
