@@ -1,3 +1,4 @@
+
 /*NAVIGATION*/
 .openbtn {
     position: fixed;
@@ -36,4 +37,17 @@
     color: black;
     display: block;
     transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    text-decoration: line-through;
+    text-decoration-color: orange;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    height: 13vw;
+    width: auto;
+    left: 33vw;
 }

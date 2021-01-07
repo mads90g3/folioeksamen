@@ -13,58 +13,6 @@ p {
     font-weight: 100;
 }
 
-/*NAVIGATION*/
-.openbtn {
-    position: fixed;
-    height: 6vw;
-    width: auto;
-    left: 89vw;
-    top: 6vw;
-}
-
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    background-color: white;
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.overlay a {
-    font-family: roc-grotesk, sans-serif;
-    font-size: 1vw;
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: black;
-    display: block;
-    transition: 0.3s;
-}
-
-.overlay a:hover,
-.overlay a:focus {
-    text-decoration: line-through;
-    text-decoration-color: orange;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    height: 13vw;
-    width: auto;
-    left: 33vw;
-}
 
 /*about overskrift*/
 #abouthead {

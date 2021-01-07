@@ -57,9 +57,8 @@ p {
 
 /*mockupbillede*/
 #imgsection2 {
-    position: relative;
-    left: 53vw;
     margin-bottom: 7vw;
+    padding-left: 30vw;
 }
 
 #imgsection2 img {

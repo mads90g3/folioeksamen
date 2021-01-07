@@ -10,11 +10,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ux</title>
     <link rel="stylesheet" href="ux.css">
+    <link rel="stylesheet" href="mutual.css">
 </head>
 
 <body>
-    <header>
-
+     <header>
+        <div id="myNav" class="overlay">
+            <a  onclick="closeNav()"><img class="closebtn" src="billeder_eksamen/folio/lukmenu.svg" alt=""></a>
+            <div class="overlay-content">
+                <a onclick="closeNav()" href="folio.html#profilbillede">01. about</a>
+                <a onclick="closeNav()" href="folio.html#kea">02. kea projects</a>
+                <a onclick="closeNav()" href="folio.html#ink">03. ink</a>
+                <a onclick="closeNav()" href="folio.html#paintings">04. paintings</a>
+                <a onclick="closeNav()" href="folio.html#contact">05. contact</a>
+            </div>
+        </div>
+        <span onclick="openNav()"><img class="openbtn" src="billeder_eksamen/folio/menu.svg" alt=""></span>
     </header>
 
     <main>
@@ -55,7 +66,7 @@
 
 
 
-    <script src=""></script>
+    <script src="script.js"></script>
     <footer>
         <a href="https://xd.adobe.com/view/d8a23f81-786f-45e0-8ebb-bc3d71a527c2-8df1/?fullscreen&hints=off
 ">tjek prototypen ud her.</a>
