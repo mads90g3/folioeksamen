@@ -53,3 +53,6 @@
     width: auto;
     left: 33vw;
 }
+.grow:hover{
+    transform: scale(1.3);
+}
