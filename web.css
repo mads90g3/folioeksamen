@@ -1,6 +1,3 @@
-* {
-    margin: 0;
-}
 
 /*fonts*/
 h3 {
@@ -28,22 +25,22 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 10vw;
+    margin-right: 10vw;
 }
 
 #web p {
     line-height: 1.6;
     font-weight: 250;
-    margin-right: 6vw;
 }
 
 #web h3 {
     text-align: right;
-    margin-right: 3vw;
 }
 
 /*moodboard og styletile*/
 #imgsection1 {
-    margin: 7vw;
+    margin-bottom: 10vw;
+    margin-left: 10vw;
 }
 
 #imgsection1 h3 {
@@ -58,7 +55,7 @@ p {
 /*mockupbillede*/
 #imgsection2 {
     margin-bottom: 7vw;
-    padding-left: 30vw;
+    margin-left: 20vw;
 }
 
 #imgsection2 img {
@@ -88,8 +85,7 @@ p {
 
 /*billede af ikon*/
 #imgsection4 {
-    position: relative;
-    left: 39vw;
+    margin-left: 35vw;
     margin-bottom: 10vw;
 }
 
