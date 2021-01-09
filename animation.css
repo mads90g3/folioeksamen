@@ -99,6 +99,8 @@ p {
 footer {
     margin-bottom: 10vw;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 footer a {

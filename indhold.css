@@ -79,6 +79,8 @@ footer a {
     font-weight: 200;
     font-size: 3vw;
     color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 footer a:hover {
