@@ -115,7 +115,23 @@ footer a:hover {
     text-decoration-color: orange;
 }
 
+/*MEDIAQ MOBIL*/
+@media only screen and (max-width: 768px){
+    h3 {
+    font-family: roc-grotesk, sans-serif;
+    font-size: 3vw;
+}
+    #anima {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 10vw;
+}
+    #anima h3 {
+    text-align: left;
+    margin-right: 3vw;
+}
 
 
+}
 
 
