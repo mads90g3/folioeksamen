@@ -135,3 +135,19 @@ footer a:hover {
     text-decoration: line-through;
     text-decoration-color: orange;
 }
+
+
+/*INK galleri*/
+#galleri_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+#galleri_wrapper img{
+    display: block;
+    height: 20vw;
+    width: auto;
+    margin: 3vw;;
+
+}
