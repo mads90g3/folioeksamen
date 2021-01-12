@@ -121,6 +121,46 @@ footer a:hover {
 
 /*MEDIAQ MOBIL*/
 @media only screen and (max-width: 768px){
+    #imgsection4 {
+    margin-left: 0vw;
+    margin-bottom: 10vw;
+}
+
+#imgsection4 img {
+    height: auto;
+    width: 50vw;
+
+}
+    #imgsection3 {
+    margin-left: 0vw;
+    margin-bottom: 7vw;
+
+}
+    footer a{
+        font-size: 5vw;
+    }
+    #imgsection3 img {
+    height: auto;
+    width: 90vw;
+}
+
+    #imgsection2 img {
+    height: auto;
+    width: 90vw;
+}
+    #imgsection2 {
+    margin-bottom: 7vw;
+    margin-left: 0vw;
+}
+    #imgsection1 {
+    margin-bottom: 10vw;
+    margin-left: 0vw;
+}
+    #imgsection1 img{
+    height: auto;
+    width: 80vw;
+}
+
     h3 {
     font-family: roc-grotesk, sans-serif;
     font-size: 3vw;

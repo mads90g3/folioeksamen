@@ -1,4 +1,3 @@
-
 /*fonts*/
 h3 {
     font-family: roc-grotesk, sans-serif;
@@ -39,38 +38,42 @@ p {
 }
 
 /*moodboard og styletile*/
-#imgsection1{
+#imgsection1 {
     margin-left: 25vw;
     padding: 6vw;
 }
 
-#imgsection1 img{
+#imgsection1 img {
     height: auto;
     width: 50vw;
     padding-bottom: 2vw;
 
 }
-#imgsection1 h3{
+
+#imgsection1 h3 {
     padding-bottom: 2vw;
 }
+
 /*billede af skitser*/
 #imgsection2 {
     padding-left: 6vw;
     padding-bottom: 10vw;
 
 }
-#imgsection2 img{
+
+#imgsection2 img {
     height: auto;
     width: 60vw;
 }
 
 /*link til prototype i footer*/
-footer{
+footer {
     padding-bottom: 10vw;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
+
 footer a {
     font-family: roc-grotesk, sans-serif;
     font-weight: 200;
@@ -84,39 +87,49 @@ footer a:hover {
 }
 
 /*MEDIAQ MOBIL*/
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
+    footer a{
+        font-size: 5vw;
+    }
+    #imgsection1 {
+        margin-left: 0vw;
+        padding: 6vw;
+    }
+
+    #imgsection1 img {
+        height: auto;
+        width: 80vw;
+        padding-bottom: 2vw;
+
+    }
+
     #ux h3 {
-    text-align: left;
-    margin-right: 3vw;
-}
+        text-align: left;
+        margin-right: 3vw;
+    }
+
     #ux {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 10vw;
-}
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 10vw;
+    }
+
     h3 {
-    font-family: roc-grotesk, sans-serif;
-    font-size: 3vw;
+        font-family: roc-grotesk, sans-serif;
+        font-size: 3vw;
+    }
+
+    #imgsection2 img {
+        height: auto;
+        width: 90vw;
+    }
+
+    #imgsection2 {
+        margin: 0;
+        margin-left: 0vw;
+        padding-bottom: 10vw;
+
+    }
+
+
 }
-    #imgsection2 img{
-    height: auto;
-    width: 100vw;
-}
-#imgsection2 {
-    margin: 0;
-    margin-left:  0vw;
-    padding-bottom: 10vw;
-
-}
-
-
-}
-
-
-
-
-
-
-
-
-

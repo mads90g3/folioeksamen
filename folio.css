@@ -67,13 +67,6 @@ div.scrollmenu a:hover {
     background-color: orange;
 }
 
-.center_text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 /*scroll left devil*/
 .devil_container {
     display: flex;
@@ -122,6 +115,7 @@ footer {
     flex-direction: column;
     text-align: center;
     padding-bottom: 10vw;
+    margin-top: 5vw;
 }
 
 footer a {
@@ -140,74 +134,60 @@ footer a:hover {
 
 /*INK galleri*/
 #galleri_wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
+    overflow: auto;
+    white-space: nowrap;
 }
 
 #galleri_wrapper img {
-    display: block;
-    height: 20vw;
+    display: inline-block;
+    height: 50vw;
     width: auto;
-    margin: 3vw;
-    ;
-
+     filter: grayscale(100%);
+    padding: 1vw;
 }
 
 /*paintings galleri*/
 #galleri_wrapper2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin-bottom: 5vw;
-
+    overflow: auto;
+    white-space: nowrap;
 }
 
 #galleri_wrapper2 img {
-    display: block;
-    height: 20vw;
+    height: 45vw;
     width: auto;
-    margin: 3vw;
-    ;
-
 }
+
+#galleri_wrapper2 div {
+    display: inline-block;
+}
+
 
 /*MEDEIAQ TIL MOBIL*/
 @media only screen and (max-width: 768px) {
-    #galleri_wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+    .devil {
+        height: 3vw;}
 
-    }
+    .devil_container h3 {
+    font-size: 2vw;
+}
+   #contact p {
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 500;
+    font-size: 6vw;
+    margin-left: 15vw;
+    margin-right: 10vw;
+}
+    footer a {
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 200;
+    font-size: 5vw;
+    color: black;
 
-    #galleri_wrapper img {
-        display: block;
-        height: 40vw;
-        width: auto;
-        margin: 3vw;
-        ;
-
-    }
-
-    #galleri_wrapper2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        margin-bottom: 5vw;
-
-    }
-
-    #galleri_wrapper2 img {
-        display: block;
-        height: 40vw;
-        width: auto;
-        margin: 3vw;
-
-
-    }
-
+}
+    div.scrollmenu img {
+    height: 80vw;
+    width: auto;
+}
     h3 {
         font-family: roc-grotesk, sans-serif;
         font-size: 3vw;
@@ -218,9 +198,10 @@ footer a:hover {
         grid-template-columns: 1fr;
         margin-bottom: 5vw;
     }
+
     #about h3 {
-    text-align: left;
-}
+        text-align: left;
+    }
 
 
 }
